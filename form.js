@@ -1,3 +1,10 @@
+var onloadCallback = function() {
+  grecaptcha.render('html_element', {
+    'sitekey' : '6LcNBrMZAAAAAADfzRm8Q8lm2LcaBkhgOxt_OoM-'
+  });
+};
+
+
 (function () {
   'use strict';
   window.addEventListener('load', function () {
