@@ -18,7 +18,7 @@ document.getElementById('zip').innerHTML = formArray[10];
 
 function submit() {
     if (confirm("Your information has been successfully submitted.")) {
-        window.location.assign('form.html')
+        window.location.assign('index.html')
     }
 }
 
