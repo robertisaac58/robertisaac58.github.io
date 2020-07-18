@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Result Verification</title>
+</head>
+
+<body>
+    <h4>"Result Verification Form"</h4>
+    <p id="note">Please verify the information in table below. You can modify the inputs by clicking on modify bottum
+        and go back
+        to the form and edit your information.</p>
+    <div class="container">
+        <table class="table table-bordered" id="mytable">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Inputs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>First name</td>
+                    <td id="name"></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td id="surname"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth</td>
+                    <td id="birth"></td>
+                </tr>
+                <tr>
+                    <td>Education level</td>
+                    <td id="edu"></td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td id="height"></td>
+                </tr>
+                <tr>
+                    <td>Phone number</td>
+                    <td id="phone"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td id="email"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td id="address"></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td id="city"></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td id="state"></td>
+                </tr>
+                <tr>
+                    <td>Zip code</td>
+                    <td id="zip"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="buttons">
+            <button type="button" id="edit" class="d-inline btn btn-primary btn-lg" onclick="window.history.back()">Edit</button>
+            <button type="submit" id="submit" class="d-inline btn btn-warning btn-lg" onclick="submit()">Submit</button>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="result.js"></script>
+</body>
+
+</html>

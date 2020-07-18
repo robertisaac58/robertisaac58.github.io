@@ -1,0 +1,49 @@
+/*body {
+  background-color: rgb(223, 233, 236);
+}*/
+
+h4 {
+  text-align: center;
+}
+
+hr {
+  border-top: 1px black solid;
+}
+
+form {
+  padding: 7px 7px 20px 7px;
+  margin: 7px 7px 20px 7px;
+  border: 1px solid black;
+  box-shadow: 10px 10px rgb(206, 206, 206);
+}
+
+.btn{
+  display: flex;
+}
+
+.invalid-tooltip {
+  position: relative;
+}
+
+/*-----------result page styles------------*/
+
+#note {
+  text-align: center;
+}
+
+thead {
+  border: 1px solid black;
+}
+
+#buttons{
+  display: inline-block;
+
+}
+button#edit {
+  width: 150px;
+  margin-right: 4rem;
+}
+
+button#submit{
+  width: 150px;
+}
